@@ -1,30 +1,52 @@
-# React + TypeScript + Vite
+# Sistema de Registro de Pontos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é um sistema de registro de pontos que permite aos funcionários registrar suas entradas e saídas da empresa. O intuito do projeto é a prática e o portfólio, e não possui fins comerciais.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### **Screenshots no final do Readme** ### 
 
-## Expanding the ESLint configuration
+- **Tela de Login**: Autenticação de usuários para acesso ao sistema.
+- **Layout Default**: Layout padrão para todas as páginas.
+- **Tela de Registrar Ponto**: Interface para os funcionários registrarem suas entradas e saídas.
+- **Dashboard**: Painel de controle para visualização dos registros e outras informações relevantes.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Observações
+Atualmente, apenas o front-end está implementado. As funcionalidades de autenticação, cadastro de usuários e registro de pontos ainda não estão operacionais, pois o back-end está em desenvolvimento.
 
-- Configure the top-level `parserOptions` property like this:
+## Tecnologias Utilizadas
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **TypeScript**: Utilizado para tipagem estática, proporcionando maior segurança e previsibilidade no desenvolvimento.
+- **ReactJS**: Biblioteca para construção da interface do usuário, permitindo a criação de componentes reutilizáveis e a gestão eficiente do estado da aplicação.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Como Executar o Projeto
+
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
+
+2. **instale as dependências:**:
+   ```bash
+   cd MiraPonto
+   npm install
+
+3. **instale as dependências:**:
+   npm run dev
+
+4. **Acesse o projeto:**
+   Abra seu navegador e vá para http://localhost:3000
+
+## Screenshots ##
+- **Tela de Login**: Autenticação de usuários para acesso ao sistema.
+  ![Tela de Login](screenshots/Login.png)
+  
+  
+- **Tela de Registrar Ponto**: Interface para os funcionários registrarem suas entradas e saídas.
+  ![Tela de Registrar Ponto](screenshots/registerpoint.png)
+  
+- **Dashboard**: Painel de controle para visualização dos registros e outras informações relevantes.
+  ![Dashboard](screenshots/dashboard.png)
+
+## Contribuições ##
+
+Contribuições são bem-vindas! Se você tiver sugestões ou encontrar problemas, por favor, abra uma issue ou envie um pull request.
