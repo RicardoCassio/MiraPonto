@@ -23,7 +23,7 @@ Atualmente, apenas o front-end está implementado. As funcionalidades de autenti
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
+   git clone https://github.com/RicardoCassio/MiraPonto.git
 
 2. **instale as dependências:**:
    ```bash
